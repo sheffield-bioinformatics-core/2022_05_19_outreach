@@ -81,11 +81,6 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ![](images/metabric.png)
  
-## Context 
- 
-- What the wet-lab scientists wanted us to spend time looking at
-
-<img src="images/metabric-clusters.png" style="width: 80%; display: block; margin-left: auto; margin-right: auto;"/>
 
 ## Context
 
@@ -99,26 +94,16 @@ No matter how much of the analysis is automated, some manual steps are inevitabl
 
 <img src="images/metadata.png" style="width: 75%; display: block; margin-left: auto; margin-right: auto;"/>
 
+## "metadata"
 
-## Reproducible Research
-
-- An analysis needs to be *automated* to be properly reproducible
-- Tools like R, Python, will help with this but the data needs to be formatted correctly in the first place
-    + R, Python cannot magically read any type of file you give them
-- **Making spreadsheets tidy at the start of the analysis will save a lot of time in the long-run**
-
-
-
-## Should we stop using Excel completely?
-
-- ....Not neccesarily.
-- Often much more convenient to eye-ball a spreadsheet and get an overall impression of your data. 
-- But they have *limitations* making them not ideal for large-scale analyses. 
-- Doing things by-hand only invites you to make copy-and-paste errors etc
+- Sequencing technologies will happily generate the data required to assess what mutations are present in an individual
+- But they have no concept of the characteristics of that indiviual
+  + patient / control
+  + age 
+  + gender
+  + drug treatment
 
 
-
-    
 ## Short Exercise
 
 - Imagine you have been asked to fill out the following spreadsheet for a clinical study involving smokers or non-smokers
